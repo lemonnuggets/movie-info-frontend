@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie Frontend</title>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <details>
+                <summary>Settings</summary>
+                <div class="theme">
+                    <button class="dark-theme">Dark Theme</but>
+                    <button class="light-theme">Light Theme</button>
+                </div>
+            </details>
+            <form class="search">
+                <input type="text" name="search" class="search-bar" placeholder="Search">
+                </input>
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </header>
+        <main class="movies-container"></main>
+    </body>
+</html>
